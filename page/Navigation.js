@@ -9,14 +9,8 @@ export class Navigation extends Component{
                 <Navbar.Toggle aria-controls="basic=navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
-                        <NavLink className="d-inline p-2 bg-dark text-white" to="/">
-                            Home
-                        </NavLink>
-                        <NavLink className="d-inline p-2 bg-dark text-white" to="/radium">
-                            Radium 
-                        </NavLink>
-                        <NavLink className="d-inline p-2 bg-dark text-white" to="/StyledComponent">
-                            Styled-component
+                        <NavLink className="d-inline p-2 bg-dark text-white" to="/Redux">
+                            Redux
                         </NavLink>
                     </Nav>
 
